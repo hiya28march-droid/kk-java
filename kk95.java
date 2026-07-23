@@ -39,6 +39,7 @@ static class kk95weight extends kk95{
         kk95weight box3=new kk95weight(4,4,4,4);
         // System.out.println(kk95.l + " "+ kk95.h+ " "+ kk95.w);
         System.out.println(box3.h +" "+box3.weight);
+        //it will not be able to access the ones that are private in the parent class
     }
 
     

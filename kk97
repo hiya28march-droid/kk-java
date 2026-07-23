@@ -1,0 +1,21 @@
+public class kk97{
+    int num;
+    String name;
+    int[] arr;
+    public kk97(int num,String name){
+        this.num=num;
+        this.name=name;
+        this.arr=new int[num];
+    }
+
+    public static void main(String[] args) {
+        kk97 obj = new kk97(4, "Hiya");
+
+        System.out.println(obj.num);
+        System.out.println(obj.name);
+        System.out.println(obj.arr.length);
+    }
+    
+    
+    
+}
